@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    min-height: 65px;
+    padding: 0px 17px;
+    z-index:2;
+    margin-bottom: 12px;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    font-size: 20px;
+}
+
+.top2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 23%;
+}
+
+.top2 a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.top2 a:hover {
+    background: #bcbcbc;
+}
+
+.top1 {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.top1:hover {
+    background: #bcbcbc;
+}
+
+.container1 p {
+    font-size: 55px;
+}
+
+.container1 {
+    background-image: url(../assets/architect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.BR {
+    background-color: black;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+/* -------------------------- Container 2 --------------------------  */
+
+.project-heading {
+    margin-top: 40px;
+}
+
+.containor2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-containor1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* position: absolute; */
+}
+
+
+.project-containor2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* -------------------------- DIV  --------------------------  */
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.img1{
+    background-image: url(../assets/house5.jpg);
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.img2{
+    background-image: url(../assets/house2.jpg);
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(../assets/house3.jpg);
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.img4{
+    background-image: url(../assets/house4.jpg);
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.img5{
+    background-image: url(../assets/house2.jpg);
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+    background-size: cover;}
+
+.img6{
+    background-image: url(../assets/house5.jpg);
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.img7{
+    background-image: url(../assets/house4.jpg);
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.img8{
+    background-image: url(../assets/house3.jpg);
+    height: 200px;
+    width: 24%;
+    margin: 5px;
+    background-size: cover;
+}
+
+.house{
+    background-color: black;
+    color: white;
+   padding: 3px;
+    width: 50%;
+}
+
+
+.but {
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 13%;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 80px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.map-img {
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.container2 {
+    padding: 0px 30px;
+}
+
+.about-container {
+    padding: 0px 30px;
+}
+
+.contact-container {
+    padding: 0px 30px;
+}
+
+
+.type {
+    width: 100%;
+    height: 30px;
+}
+
+.img0 {
+    display: flex;
+    margin: 30px;
+    margin-left: 0px;
+    padding: 5px;
+}
+
+button {
+    height: 30px;
+    width: 96%;
+}
+
+/* -------------------------- Media Queries -------------------------- */
+
+
+@media screen and (max-width:771px) {
+    header {
+        flex-direction: column;
+    }
+}
